@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1497465810 source:/home/clicktur/Escritorio/TP_1.3/main.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	"scanner.h"
+
+1497471210 source:/home/clicktur/Escritorio/TP_1.3/scanner.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	"scanner.h"
+	<stddef.h>
+	<stdbool.h>
+
+1497465899 /home/clicktur/Escritorio/TP_1.3/scanner.h
+
+1497545436 source:/home/clicktur/Escritorio/TP_1.3 (2)/main.c
+	<stdio.h>
+	"scanner.h"
+
+1497465900 /home/clicktur/Escritorio/TP_1.3 (2)/scanner.h
+
+1497545548 source:/home/clicktur/Escritorio/TP_1.3 (2)/scanner.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	"scanner.h"
+	<stddef.h>
+	<stdbool.h>
+
