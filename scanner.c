@@ -1,18 +1,14 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>
-#include "scanner.h"
 #include <stddef.h>
 #include <stdbool.h>
 void scanner(char cadena [500])
 {
     char * pch;
-    //printf ("cadena\n %s ", cadena );
-    pch = strtok (cadena," ");   // Aqui deja solo la coma
-    //printf ("\n%s", pch );
+    pch = strtok (cadena," ");
     while (pch != NULL)
     {
-        //printf ("\n%s\n",pch);     // Aqui deberias guardar tu dato en el array!
         bool num = false;
         bool letterMin = false;
         bool firstCharIsLetter = false;
@@ -25,8 +21,6 @@ void scanner(char cadena [500])
         bool flag = false;
         char *p = pch;
         while ( *p != '\0' && *p != '\n') {
-
-            //printf ("\n%c ", *p  );
 
             if( isalpha(*p) )
             {
@@ -79,7 +73,7 @@ void scanner(char cadena [500])
             }
             anterior = actual;
             flag = true;
-            p++ ; // move p to point to next position
+            p++ ;
 
         }
             if(letterMin){
@@ -92,9 +86,7 @@ void scanner(char cadena [500])
                 printf("\n error ");
             }
 
-
-
-        pch = strtok (NULL, " ");  // Aca tambien iria solo la coma.!!
+        pch = strtok (NULL, " ");
     }
 
 }

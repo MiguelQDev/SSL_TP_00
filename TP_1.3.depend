@@ -29,3 +29,16 @@
 	<stddef.h>
 	<stdbool.h>
 
+1497633013 source:/home/clicktur/Escritorio/TP_00/main.c
+	<stdio.h>
+	"scanner.h"
+
+1497465900 /home/clicktur/Escritorio/TP_00/scanner.h
+
+1497633133 source:/home/clicktur/Escritorio/TP_00/scanner.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<stddef.h>
+	<stdbool.h>
+

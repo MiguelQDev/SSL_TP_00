@@ -1,14 +1,27 @@
+/*
+--TP00 – 2017
+
+--Un escáner elemental
+
+--Grupo 03
+
+--Integrantes del Grupo:
+----Quispe Miguel - 1534518
+----Apellido y Nombre - Legajo
+----Apellido y Nombre - Legajo
+----Apellido y Nombre - Legajo
+*/
+
+
 #include <stdio.h>
 #include "scanner.h"
 
 int main()
 {
     char cadena [500];
-    printf ("Introduzca una cadena: ");
+    printf ("Ingrese las cadenas: ");
     fgets (cadena, 500, stdin);
-    //printf ("Splitting string \"%s\" into tokens:\n",cadena);
     scanner(cadena);
-
     return 0;
 
 }
